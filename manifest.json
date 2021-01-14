@@ -1,0 +1,14 @@
+{
+    "name": "Bible Viewer",
+    "version": "1.0",
+    "description": "A passage from the bible to each new tab!",
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ],
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+    "manifest_version": 2
+  }
+  
